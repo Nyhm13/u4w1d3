@@ -12,6 +12,7 @@ public class SIM {
      // Creo costruttore
     public SIM (String numeroTelefono){
         this.numeroTelefono= numeroTelefono;
+        //this.credito potevo non farlo in quanto non glielo passo ocme parametro
         this.credito=0.0;
         this.chiamate= new LinkedList<>();
     }
